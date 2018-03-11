@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vali.einzelbeispiel.MainActivity">
+
+    <EditText
+        android:id="@+id/string_eingabe"
+        android:layout_width="215dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="53dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginTop="79dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/string_5_zeichen"
+        app:layout_constraintBottom_toTopOf="@+id/ckeck_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/ckeck_button"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="267dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:text="@string/check_string"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/string_eingabe" />
+
+</android.support.constraint.ConstraintLayout>
